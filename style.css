@@ -1,0 +1,110 @@
+:root{
+    --background-color : #ef9f9f9;
+    --texto-body: #333;
+    --cor-footer: #1f2937
+}
+
+.card{
+border: 1px solid #ddd;
+border-radius: 10px;
+
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+width: 300px;
+
+padding: 15px;
+
+display: flex;
+
+flex-direction: column;
+
+transition: transform 0.2s ease-in-out;
+}
+
+.produtos {display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--b-body);
+    color: var(--texto-body)
+}
+
+header{
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header{
+    margin: 0;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h2{
+    font-size: 0.95em;
+    color: #000;
+}
+
+.card p{
+    font-size: 0.95em;
+    color: #000;
+}
+
+.card:hover{
+    trasform:scale(1.03);
+}
+
+.main{
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.preco{
+font-weight: bold;
+}
+
+footer{
+    background-color: var(--cor-footer);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+ footer p {
+    margin: 0; 
+ }
+
+.media querie{
+    @media (max-widht: 600px) {
+
+        .card {
+            
+        widht: 90%
+
+        }
+
+        h1{
+
+        font-size: 1.5rem;
+        }
+
+        }
+}
